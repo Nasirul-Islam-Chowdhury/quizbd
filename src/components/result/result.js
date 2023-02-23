@@ -1,4 +1,9 @@
-export const result =(data, details)=>{
-    // console.log(details)
-console.log(data)
+export const result = (data, details, questions) => {
+    console.log(details)
+    questions.map(qu=> {
+        console.log(qu);
+       
+ 
+    })
+   
 }
