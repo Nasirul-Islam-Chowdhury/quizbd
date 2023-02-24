@@ -2,9 +2,9 @@ import React from 'react';
 import { } from 'react-router-dom'
 import { result } from '../../result/result';
 
-const Question = ({ quesion, details, questions }) => {
+const Question = ({ quesion }) => {
     return (
-        <div className='px-80'>
+            <div className='px-80'>
             <div className='shadow-lg p-10 rounded py-10 mb-5 bg-white'>
                 <ol className='text-xl text-slate-600 text-center font-semibold pt-5 flex'>
                     Quiz: <li>{quesion.question}</li>
@@ -24,6 +24,8 @@ const Question = ({ quesion, details, questions }) => {
             </div>
 
         </div >
+
+
     );
 };
 

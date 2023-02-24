@@ -13,7 +13,7 @@ const NavBar = () => {
                 <ul className={`md:flex md:justify-end gap-10 justify-start  text-xl md:static absolute items-center ${open? 'top-14 text-white md:p-0 p-4 bg-slate-700' : 'top-[-120px]'}`}>
                     <Link to={'/'}>Topics</Link>
                     <hr className='md:hidden mb-3'/>
-                    <Link to={'/Statistics'}>Statistics</Link>
+                    <Link to={'/statistics'}>Statistics</Link>
                     <hr className='md:hidden mb-3'/>
                     <Link to={'/blogs'}>Blogs</Link>
                 </ul>

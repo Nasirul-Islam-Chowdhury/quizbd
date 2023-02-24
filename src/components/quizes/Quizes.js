@@ -9,7 +9,8 @@ const Quizes = () => {
 
 <div>
     <div>
-        <h1 className='px-16 text-2xl font-bold text-slate-700 pt-10 pb-5'>Popular Contents</h1>
+        <p className='text-xl px-16 mt-5 italic'>Welcome to our quiz community. Play a quiz and test your skill. There are some quiz for everyone!</p>
+        <h1 className='px-16 text-2xl font-bold text-slate-700 pt-5 pb-5'>Popular Contents</h1>
     </div>
 <div className='md:grid md:grid-cols-4 gap-5 mx-auto px-16'>
               {
