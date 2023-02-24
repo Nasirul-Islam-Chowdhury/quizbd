@@ -10,7 +10,7 @@ const QuizDetails = () => {
         <div className='text-slate-800 bg-slate-100 py-5'>
             <h1 className='text-center text-3xl font-bold pb-5'>Quiz of {details.name}</h1>
             {
-            questions.map(quesion => <Question key={quesion.id} questions={questions} quesion={quesion} details={details}></Question>)
+            questions.map(quesion => <Question key={quesion.id} details={details} questions={questions} quesion={quesion}></Question>)
        }
         </div>
       

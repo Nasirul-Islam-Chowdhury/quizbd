@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import { ArrowRightIcon } from '@heroicons/react/24/solid'
-import QuizDetails from '../../quizDetails/QuizDetails';
 
 const Quiz = ({ quiz }) => {
     return (

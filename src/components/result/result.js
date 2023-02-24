@@ -1,9 +1,8 @@
-export const result = (data, details, questions) => {
-    console.log(details)
-    questions.map(qu=> {
-        console.log(qu);
-       
- 
-    })
+export const result = (quesion,option) => {
+        if(quesion.correctAnswer === option){
+            alert("correct Answer")
+        }else{
+            alert("wrong answer")
+        }
+    }
    
-}
