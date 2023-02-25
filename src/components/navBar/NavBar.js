@@ -15,7 +15,7 @@ const NavBar = () => {
                     <hr className='md:hidden mb-3'/>
                     <Link to={'/statistics'}>Statistics</Link>
                     <hr className='md:hidden mb-3'/>
-                    <Link to={'/blogs'}>Blogs</Link>
+                    <Link to={'/blog'}>Blogs</Link>
                 </ul>
             </div>
             <div onClick={()=>setOpen(!open)} className="h-6 w-6 md:hidden ">
