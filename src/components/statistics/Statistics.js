@@ -9,7 +9,7 @@ const Statistics = () => {
     return (
        <div className='flex justify-center mt-10'>
          <div className='mx-auto'>
-            <BarChart className='w-[600px]' width={600} height={400} data={chartData}>
+            <BarChart  width={380} height={400} data={chartData}>
                 <XAxis dataKey="name" stroke="#8884d8" />
                 <YAxis />
                 <Tooltip wrapperStyle={{ width: 100, backgroundColor: '#ccc' }} />
