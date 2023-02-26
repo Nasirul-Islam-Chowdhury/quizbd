@@ -14,10 +14,10 @@ const Question = ({ quesion }) => {
                     </ol>
                     <ol className='grid grid-cols-2'>
                         {quesion.options.map(option =>
-                            <div key={option} onClick={() => Result(quesion, option)} className='lg:p-5 p-1 border-2 lg:m-2 m-1 hover:bg-gray-100 cursor-pointer rounded'>
-                                <label className="inline-flex items-center">
-                                    <input type="radio" className="form-radio" name="accountType" value="personal" />
-                                    <span className="lg:ml-2 ml-1 text-sm">{option}</span>
+                            <div key={option}  className='lg:p-5 p-1 border-2 lg:m-2 m-1  hover:bg-gray-100  rounded'>
+                                <label  className="inline-flex items-center ">
+                                    <input onClick={() => Result(quesion, option)} type="radio" className="form-radio cursor-pointer" name="accountType" value="personal" />
+                                    <span className="lg:ml-2 ml-1 text-sm cursor-pointer">{option}</span>
                                 </label>
                             </div>)}
                     </ol>
